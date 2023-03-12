@@ -13,21 +13,21 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import { useState } from 'react';
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
 export default function Home() {
-  const firebaseConfig = {
-    apiKey: "AIzaSyBWc8m6U1_dqXoThXNia_nKdc4Ej9jn-38",
-    authDomain: "portfolio-22052004.firebaseapp.com",
-    projectId: "portfolio-22052004",
-    storageBucket: "portfolio-22052004.appspot.com",
-    messagingSenderId: "120880387813",
-    appId: "1:120880387813:web:000cce097183947e7fe60c",
-    measurementId: "G-08VVM36M7H"
-  };
+  // const firebaseConfig = {
+  //   apiKey: "AIzaSyBWc8m6U1_dqXoThXNia_nKdc4Ej9jn-38",
+  //   authDomain: "portfolio-22052004.firebaseapp.com",
+  //   projectId: "portfolio-22052004",
+  //   storageBucket: "portfolio-22052004.appspot.com",
+  //   messagingSenderId: "120880387813",
+  //   appId: "1:120880387813:web:000cce097183947e7fe60c",
+  //   measurementId: "G-08VVM36M7H"
+  // };
 
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  // const app = initializeApp(firebaseConfig);
+  // const analytics = getAnalytics(app);
 
   const [darkMode, setdarkMode] = useState(false);
   return (
