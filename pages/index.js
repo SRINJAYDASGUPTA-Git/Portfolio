@@ -53,7 +53,7 @@ export default function Home() {
                I am an <span className='text-teal-500'>coding enthusiast</span> and like to try various things.</h4>
           </div>
           <div className='lg:flex gap-10 '>
-            <div className='text-center shadow-xl p-10 rounded-xl my-10 flex-1 dark:shadow-cyan-300 shadow-lg'>
+            <div className='text-center shadow-xl p-10 rounded-xl my-10 flex-1 dark:shadow-cyan-300 shadow-xl'>
               <Image className='mx-auto' src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-stone-400">
                 Code your dream project
