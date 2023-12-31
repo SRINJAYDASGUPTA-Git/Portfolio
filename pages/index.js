@@ -23,10 +23,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div >
       <main className='bg-white px-4 md:px-20 lg:px-40 dark:bg-gray-900'>
         <section className='min-h-screen flex justify-center items-center flex-col '>
-          <nav className=' py-10 mb-12 flex justify-center gap-16 place-items-center'>
+          <nav className='w-full justify-between py-10 mb-12 flex  gap-16 place-items-center md:items-end'>
             <h1 className=' text-xl font-burtons dark:text-white'>EnderDev</h1>
             <ul className=' flex items-center' >
               <li> <BsFillMoonStarsFill onClick={()=> setdarkMode(!darkMode)} className=' cursor-pointer text-2xl dark:text-white'/> </li>
@@ -102,6 +101,5 @@ export default function Home() {
         </section>
       </main>
       </div>
-    </div>
   )
 }
